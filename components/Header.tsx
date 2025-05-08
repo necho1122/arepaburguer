@@ -15,7 +15,7 @@ export default function Header() {
 	const navLinks = ['Home', 'Menu', 'About', 'Contact'];
 
 	return (
-		<header className='fixed top-0 left-0 w-full bg-white z-50 shadow-sm'>
+		<header className='fixed top-0 left-0 w-full bg-[#f2f4f5] z-50 shadow-md'>
 			<div className='max-w-7xl mx-auto flex items-center justify-between px-6 py-4'>
 				{/* Logo */}
 				<Link
@@ -47,7 +47,7 @@ export default function Header() {
 				<div className='hidden md:block'>
 					<a
 						href='#'
-						className='bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full transition-colors'
+						className='bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm transition-colors shadow'
 					>
 						Book Now
 					</a>
@@ -82,7 +82,7 @@ export default function Header() {
 					))}
 					<a
 						href='#'
-						className='mt-4 bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full text-center'
+						className='mt-4 bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm text-center shadow transition-colors'
 						onClick={() => setMenuOpen(false)}
 					>
 						Book Now

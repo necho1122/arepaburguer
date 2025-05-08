@@ -27,7 +27,7 @@ const testimonials = [
 
 export default function Testimonials() {
 	return (
-		<section className='py-20 bg-[#fff9f0] px-6 max-w-7xl mx-auto text-center'>
+		<section className='py-20 bg-[#f2f4f5] px-6 max-w-7xl mx-auto text-center'>
 			<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
 				What Our Clients Say
 			</h2>
@@ -39,7 +39,7 @@ export default function Testimonials() {
 				{testimonials.map((t, i) => (
 					<div
 						key={i}
-						className='bg-white shadow-lg rounded-xl p-6 text-left'
+						className='bg-white shadow-lg rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md p-6 text-left transition-transform hover:scale-105'
 					>
 						<div className='flex items-center gap-4 mb-4'>
 							<Image
@@ -47,7 +47,7 @@ export default function Testimonials() {
 								alt={t.name}
 								width={50}
 								height={50}
-								className='rounded-full'
+								className='rounded-full shadow'
 							/>
 							<div>
 								<p className='font-semibold text-gray-900'>{t.name}</p>

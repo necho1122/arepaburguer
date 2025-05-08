@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Welcome() {
 	return (
-		<section className='py-20 bg-white px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10'>
+		<section className='py-20 bg-[#f2f4f5] px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10'>
 			{/* Imagen del plato */}
 			<div className='w-full md:w-1/2 relative'>
 				<Image
@@ -11,7 +11,7 @@ export default function Welcome() {
 					alt='Welcome Dish'
 					width={600}
 					height={600}
-					className='rounded-xl object-contain mx-auto'
+					className='rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md object-contain mx-auto shadow-lg'
 				/>
 			</div>
 
@@ -25,7 +25,7 @@ export default function Welcome() {
 					Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris dictum
 					magna in quam vulputate, a pretium elit varius.
 				</p>
-				<button className='bg-orange-500 text-white py-3 px-6 rounded-full hover:bg-orange-600 transition'>
+				<button className='bg-orange-500 text-white py-3 px-6 rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md hover:bg-orange-600 transition shadow'>
 					Book a table
 				</button>
 			</div>

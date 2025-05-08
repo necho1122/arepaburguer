@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Chef() {
 	return (
-		<section className='py-20 px-6 bg-[#fff9f0] max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10'>
+		<section className='py-20 px-6 bg-[#f2f4f5] max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10'>
 			{/* Imagen del Chef */}
 			<div className='w-full md:w-1/2 relative'>
 				<Image
@@ -11,7 +11,7 @@ export default function Chef() {
 					alt='Chef Image'
 					width={500}
 					height={600}
-					className='rounded-lg mx-auto'
+					className='rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md mx-auto shadow-lg'
 				/>
 			</div>
 

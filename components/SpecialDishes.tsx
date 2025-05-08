@@ -28,7 +28,7 @@ const dishes = [
 export default function SpecialDishes() {
 	return (
 		<section
-			className='py-20 bg-white px-6 max-w-7xl mx-auto text-center'
+			className='py-20 bg-[#f2f4f5] px-6 max-w-7xl mx-auto text-center'
 			id='menu'
 		>
 			<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
@@ -42,14 +42,14 @@ export default function SpecialDishes() {
 				{dishes.map((dish, idx) => (
 					<div
 						key={idx}
-						className='bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center'
+						className='bg-white shadow-lg rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md p-6 flex flex-col items-center text-center transition-transform hover:scale-105'
 					>
 						<Image
 							src={dish.image}
 							alt={dish.name}
 							width={120}
 							height={120}
-							className='mb-4'
+							className='mb-4 rounded-full shadow'
 						/>
 						<h3 className='text-xl font-semibold text-gray-900 mb-2'>
 							{dish.name}

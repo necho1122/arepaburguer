@@ -5,67 +5,67 @@ export default function Hero() {
 	return (
 		<section
 			id='home'
-			className='relative w-full bg-[#f2f4f5] py-28 px-6 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto'
+			className='relative w-full h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden md:mt-0'
 		>
-			{/* Texto principal */}
-			<div className='lg:w-1/2 space-y-6 text-center lg:text-left'>
-				<h1 className='text-4xl md:text-5xl font-bold text-gray-900 leading-tight'>
-					Welcome to <br />
-					<span className='text-orange-500'>ArepaBurguer</span>
-				</h1>
-				<p className='text-gray-600 text-base md:text-lg'>
-					Discover the perfect blend of Venezuelan arepas and gourmet burgers.
-				</p>
+			{/* Imagen de fondo */}
+			<Image
+				src='/assets/hero-restaurant.jpg'
+				alt='Restaurant background'
+				fill
+				style={{ objectFit: 'cover', objectPosition: 'center' }}
+				className='z-0 opacity-60 bg-black/80 bg-white/80'
+				priority
+			/>
+			{/* Overlay oscuro */}
+			<div className='absolute inset-0 bg-black/70 z-10' />
 
-				{/* Botones */}
-				<div className='flex justify-center lg:justify-start gap-4'>
-					<button className='bg-orange-500 text-white px-6 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition'>
+			{/* Contenido centrado */}
+			<div className='relative z-20 flex flex-col items-center text-center px-6 mt-20'>
+				<Image
+					src='/assets/arepaburguer-logo.png'
+					alt='ArepaBurguer Logo'
+					width={120}
+					height={120}
+					className='mb-6 rounded-full bg-white/80 p-2 shadow-lg'
+				/>
+				<h1 className='text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg mb-4'>
+					ArepaBurguer
+				</h1>
+				<p className='text-lg md:text-2xl text-gray-100 mb-8 max-w-2xl'>
+					The perfect blend of Venezuelan tradition and gourmet burgers. Taste
+					the difference!
+				</p>
+				<div className='flex gap-4'>
+					<button className='bg-orange-500 text-white px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition text-lg font-semibold'>
 						Order Now
 					</button>
-					<button className='border border-orange-500 text-orange-500 px-6 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition'>
+					<button className='border border-orange-500 text-orange-500 px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition text-lg font-semibold bg-white/80'>
 						View Menu
 					</button>
 				</div>
-
-				{/* Íconos sociales */}
-				<div className='flex justify-center lg:justify-start gap-4 mt-6'>
+				<div className='flex gap-4 mt-8'>
 					<Image
 						src='/assets/facebook.svg'
 						alt='Facebook'
-						width={24}
-						height={24}
+						width={32}
+						height={32}
+						className='invert-[.9]'
 					/>
 					<Image
 						src='/assets/instagram.svg'
 						alt='Instagram'
-						width={24}
-						height={24}
+						width={32}
+						height={32}
+						className='invert-[.9]'
 					/>
 					<Image
 						src='/assets/twitter.svg'
 						alt='Twitter'
-						width={24}
-						height={24}
+						width={32}
+						height={32}
+						className='invert-[.9]'
 					/>
 				</div>
-			</div>
-
-			{/* Imagen Hero */}
-			<div className='lg:w-1/2 mt-10 lg:mt-0 relative'>
-				<Image
-					src='/assets/hero-restaurant.jpg' // reemplaza con tu imagen real
-					alt='Restaurant interior'
-					width={500}
-					height={600}
-					className='rounded-xl shadow-xl z-10 relative'
-				/>
-				<Image
-					src='/assets/arepaburguer-logo.png' // imagen del logo del restaurante
-					alt='ArepaBurguer Logo'
-					width={250}
-					height={250}
-					className='absolute -bottom-12 -left-12 z-20'
-				/>
 			</div>
 		</section>
 	);

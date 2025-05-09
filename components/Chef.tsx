@@ -34,7 +34,7 @@ export default function Chef() {
 						height={40}
 						className='mb-2'
 					/>
-					<p className='font-semibold text-gray-800'>John Doe</p>
+					<p className='font-semibold text-gray-800'>Roger Rodríguez</p>
 					<p className='text-sm text-gray-500'>Head Chef</p>
 				</div>
 			</div>

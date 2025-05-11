@@ -1,7 +1,28 @@
+'use client';
+
 // components/Hero.tsx
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
+	const [logoSize, setLogoSize] = useState(200);
+
+	useEffect(() => {
+		function handleResize() {
+			if (window.innerWidth < 480) {
+				setLogoSize(100);
+			} else if (window.innerWidth < 768) {
+				setLogoSize(140);
+			} else {
+				setLogoSize(200);
+			}
+		}
+		handleResize();
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	}, []);
+
 	return (
 		<section
 			id='home'
@@ -20,12 +41,12 @@ export default function Hero() {
 			<div className='absolute inset-0 bg-black/70 z-10' />
 
 			{/* Contenido centrado */}
-			<div className='relative z-20 flex flex-col items-center text-center px-6 mt-20'>
+			<div className='relative z-20 flex flex-col items-center text-center px-6 mt-30'>
 				<Image
 					src='/assets/arepaburguer-logo.png'
 					alt='ArepaBurguer Logo'
-					width={120}
-					height={120}
+					width={logoSize}
+					height={logoSize}
 					className='mb-6 rounded-full bg-white/80 p-2 shadow-lg'
 				/>
 				<h1 className='text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg mb-4'>
@@ -39,9 +60,11 @@ export default function Hero() {
 					<button className='bg-orange-500 text-white px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition text-lg font-semibold'>
 						Order Now
 					</button>
-					<button className='border border-orange-500 text-orange-500 px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition text-lg font-semibold bg-white/80'>
-						View Menu
-					</button>
+					<Link href='/menu'>
+						<button className='border border-orange-500 text-orange-500 px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition text-lg font-semibold bg-white/80'>
+							View Menu
+						</button>
+					</Link>
 				</div>
 				<div className='flex gap-4 mt-8'>
 					<Image

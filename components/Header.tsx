@@ -12,7 +12,12 @@ export default function Header() {
 
 	const toggleMenu = () => setMenuOpen(!menuOpen);
 
-	const navLinks = ['Home', 'Menu', 'About', 'Contact'];
+	const navLinks = [
+		{ name: 'Home', href: '/' },
+		{ name: 'Menu', href: '/menu' },
+		{ name: 'About', href: '/about' },
+		{ name: 'Contact', href: '/contact' },
+	];
 
 	return (
 		<header className='fixed top-0 left-0 w-full bg-[#f2f4f5] z-50 shadow-md'>
@@ -34,11 +39,11 @@ export default function Header() {
 				<nav className='hidden md:flex items-center gap-8'>
 					{navLinks.map((link) => (
 						<Link
-							key={link}
-							href='#'
+							key={link.name}
+							href={link.href}
 							className='text-gray-700 hover:text-orange-500 font-medium transition-colors'
 						>
-							{link}
+							{link.name}
 						</Link>
 					))}
 				</nav>
@@ -72,12 +77,12 @@ export default function Header() {
 				<nav className='flex flex-col gap-4'>
 					{navLinks.map((link) => (
 						<Link
-							key={link}
-							href='#'
+							key={link.name}
+							href={link.href}
 							className='text-gray-700 hover:text-orange-500 font-medium'
 							onClick={() => setMenuOpen(false)}
 						>
-							{link}
+							{link.name}
 						</Link>
 					))}
 					<a

@@ -1,5 +1,6 @@
 import MenuCard from '@/components/MenuCard';
 import Image from 'next/image';
+import data from '@/data/data.json';
 
 export default function MenuPage() {
 	return (
@@ -43,77 +44,71 @@ export default function MenuPage() {
 				</h1>
 				<p className='text-gray-700 text-lg max-w-xl text-center mx-auto mb-12'>
 					Explora nuestra selección de platos venezolanos y hamburguesas
-					gourmet, preparados con los ingredientes frescos y de alta calidad.
+					gourmet, preparados con ingredientes frescos y de alta calidad.
 				</p>
+				<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+					Arepas
+				</h2>
 				<section className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-					{/* Aperitivos */}
-					<MenuCard
-						title='Aperitivos'
-						image='/assets/dishes/tequenos.jpg'
-						items={[
-							['Tequeños', 'Queso frito con salsa de aji amarillo ($8.99)'],
-							[
-								'Cachapas',
-								'Tortillas de maíz con queso y salsa de aguacate ($7.99)',
-							],
-						]}
-					/>
-
-					{/* Hamburguesas */}
-					<MenuCard
-						title='Hamburguesas'
-						image='/assets/dishes/burger.jpg'
-						items={[
-							[
-								'Clásica',
-								'Hamburguesa con queso, lechuga, tomate y mayonesa ($12.99)',
-							],
-							['Gourmet', 'Con bacon, queso, lechuga y tomate ($14.99)'],
-						]}
-					/>
-
-					{/* Postres */}
-					<MenuCard
-						title='Postres'
-						image='/assets/dishes/postre-3-leches.webp'
-						items={[
-							['Tres Leches', 'Pastel con crema chantillí ($6.99)'],
-							['Flan', 'Flan de vainilla con caramelo ($5.99)'],
-						]}
-					/>
-
-					{/* Bebidas */}
-					<MenuCard
-						title='Bebidas'
-						image='/assets/dishes/papelon.jpg'
-						items={[
-							['Papelón con limón', 'Refrescante bebida venezolana ($3.50)'],
-							['Chicha criolla', 'Bebida de arroz con leche ($4.00)'],
-						]}
-					/>
-
-					{/* Arepas */}
-					<MenuCard
-						title='Arepas'
-						image='/assets/dishes/arepas.webp'
-						items={[
-							['Reina Pepiada', 'Pollo con aguacate ($6.99)'],
-							['Dominó', 'Caraotas negras y queso blanco ($5.99)'],
-						]}
-					/>
-
-					{/* Especiales */}
-					<MenuCard
-						title='Especiales'
-						image='/assets/dishes/pabellon.jpg'
-						items={[
-							[
-								'Pabellón criollo',
-								'Carne mechada, arroz, caraotas y plátano ($11.99)',
-							],
-							['Parrilla mixta', 'Variedad de carnes y chorizo ($18.99)'],
-						]}
-					/>
+					{data.menu.arepas.map((arepa, index) => (
+						<MenuCard
+							key={index}
+							title={arepa.nombre as string}
+							image={'/assets/dishes/arepas.webp'}
+							items={arepa.ingredientes.map((ingredient) => [ingredient, ''])}
+							acompanamientos={''}
+							price={arepa.precio as number}
+						/>
+					))}
+				</section>
+				<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4 mt-12'>
+					Empanadas
+				</h2>
+				<section className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+					{data.menu.empanadas.map((empanada, index) => (
+						<MenuCard
+							key={index}
+							title={empanada.nombre as string}
+							image={'/assets/dishes/empanadas.webp'}
+							items={[]}
+							acompanamientos={''}
+							price={empanada.precio as number}
+						/>
+					))}
+				</section>
+				<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4 mt-12'>
+					Hamburguers
+				</h2>
+				<section className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+					{data.menu.hamburguesas.map((hamburguesa, index) => (
+						<div key={index}>
+							<MenuCard
+								title={hamburguesa.nombre as string}
+								image={'/assets/dishes/burger.jpg'}
+								items={hamburguesa.ingredientes.map((ingredient) => [
+									ingredient,
+									'',
+								])}
+								acompanamientos={`acompanamientos: ${hamburguesa.acompanamientos},`}
+								price={hamburguesa.precio as number}
+							/>
+						</div>
+					))}
+				</section>
+				<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4 mt-12'>
+					Combos
+				</h2>
+				<section className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+					{data.menu.combos.map((combo, index) => (
+						<MenuCard
+							key={index}
+							title={combo.nombre as string}
+							image={'/assets/dishes/combo.jpg'}
+							items={[]}
+							acompanamientos={''}
+							price={combo.precio as number}
+						/>
+					))}
 				</section>
 			</div>
 		</main>

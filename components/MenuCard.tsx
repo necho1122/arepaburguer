@@ -4,10 +4,14 @@ function MenuCard({
 	title,
 	image,
 	items,
+	price,
+	acompanamientos,
 }: {
 	title: string;
 	image: string;
 	items: [string, string][];
+	price: number;
+	acompanamientos: string;
 }) {
 	return (
 		<div className='bg-white shadow-lg rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md p-6 text-left transition-transform hover:scale-105'>
@@ -30,6 +34,8 @@ function MenuCard({
 					</li>
 				))}
 			</ul>
+			<p className='text-gray-600 mt-4'>{acompanamientos}</p>
+			<p className='text-gray-600 mt-4'>Valor: R${price}</p>
 		</div>
 	);
 }

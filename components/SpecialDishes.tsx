@@ -46,7 +46,7 @@ export default function SpecialDishes() {
 					>
 						<Image
 							src={dish.image}
-							alt={dish.name}
+							alt={`Dish: ${dish.name}`}
 							width={120}
 							height={120}
 							className='mb-4 rounded-full shadow'

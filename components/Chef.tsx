@@ -8,7 +8,7 @@ export default function Chef() {
 			<div className='w-full md:w-1/2 relative'>
 				<Image
 					src='/assets/chef.jpg'
-					alt='Chef Image'
+					alt='Chef at ArepaBurguer'
 					width={500}
 					height={600}
 					className='rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md mx-auto shadow-lg'

@@ -44,7 +44,7 @@ export default function Testimonials() {
 						<div className='flex items-center gap-4 mb-4'>
 							<Image
 								src={t.image}
-								alt={t.name}
+								alt={`Photo of ${t.name}`}
 								width={50}
 								height={50}
 								className='rounded-full shadow'

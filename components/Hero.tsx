@@ -34,7 +34,7 @@ export default function Hero() {
 				alt='Restaurant background'
 				fill
 				style={{ objectFit: 'cover', objectPosition: 'center' }}
-				className='z-0 opacity-60 bg-black/80 bg-white/80'
+				className='z-0 opacity-60'
 				priority
 			/>
 			{/* Overlay oscuro */}

@@ -8,7 +8,7 @@ export default function Welcome() {
 			<div className='w-full md:w-1/2 relative'>
 				<Image
 					src='/assets/dishes/welcome-plate.jpg'
-					alt='Welcome Dish'
+					alt='Delicious welcome dish'
 					width={600}
 					height={600}
 					className='rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md object-contain mx-auto shadow-lg'
@@ -26,7 +26,7 @@ export default function Welcome() {
 					magna in quam vulputate, a pretium elit varius.
 				</p>
 				<button className='bg-orange-500 text-white py-3 px-6 rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md hover:bg-orange-600 transition shadow'>
-					Book a table
+					Reserve a Table
 				</button>
 			</div>
 		</section>

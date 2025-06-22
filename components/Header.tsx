@@ -13,10 +13,10 @@ export default function Header() {
 	const toggleMenu = () => setMenuOpen(!menuOpen);
 
 	const navLinks = [
-		{ name: 'Home', href: '/' },
-		{ name: 'Menu', href: '/menu' },
-		{ name: 'About', href: '/about' },
-		{ name: 'Contact', href: '/contact' },
+		{ name: 'Início', href: '/' },
+		{ name: 'Cardápio', href: '/menu' },
+		{ name: 'Sobre', href: '/about' },
+		{ name: 'Contato', href: '/contact' },
 	];
 
 	return (
@@ -54,7 +54,7 @@ export default function Header() {
 						href='#'
 						className='bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm transition-colors shadow'
 					>
-						Book Now
+						Reservar agora
 					</a>
 				</div>
 
@@ -90,7 +90,7 @@ export default function Header() {
 						className='mt-4 bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm text-center shadow transition-colors'
 						onClick={() => setMenuOpen(false)}
 					>
-						Book Now
+						Reservar agora
 					</a>
 				</nav>
 			</div>

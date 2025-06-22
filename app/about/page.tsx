@@ -35,14 +35,14 @@ export default function AboutPage() {
 				/>
 			</div>
 
-			{/* Contenido principal */}
+			{/* Conteúdo principal */}
 			<h1 className='relative z-10 text-4xl md:text-5xl font-bold text-orange-500 mb-6 drop-shadow'>
-				About Us
+				Sobre Nós
 			</h1>
 			<p className='relative z-10 text-gray-700 text-lg max-w-xl text-center mb-8'>
-				ArepaBurguer is a modern restaurant blending Venezuelan tradition with
-				gourmet flavors. Our passion is to serve you the best arepas and burgers
-				in a cozy atmosphere.
+				A ArepaBurguer é um restaurante moderno que une a tradição venezuelana
+				com sabores gourmet. Nossa paixão é servir as melhores arepas e
+				hambúrgueres em um ambiente acolhedor.
 			</p>
 		</main>
 	);

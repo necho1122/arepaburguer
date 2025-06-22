@@ -18,15 +18,15 @@ export default function Welcome() {
 			{/* Texto descriptivo */}
 			<div className='w-full md:w-1/2 text-center md:text-left'>
 				<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-					Welcome to Our <br />{' '}
-					<span className='text-orange-500'>Restaurant</span>
+					Bem-vindo ao nosso <br />{' '}
+					<span className='text-orange-500'>Restaurante</span>
 				</h2>
 				<p className='text-gray-600 mb-6'>
-					Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris dictum
-					magna in quam vulputate, a pretium elit varius.
+					Experimente o melhor da culinária venezuelana com um toque especial.
+					Sinta-se em casa e aproveite cada sabor!
 				</p>
 				<button className='bg-orange-500 text-white py-3 px-6 rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md hover:bg-orange-600 transition shadow'>
-					Reserve a Table
+					Reservar uma mesa
 				</button>
 			</div>
 		</section>

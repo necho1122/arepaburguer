@@ -1,11 +1,12 @@
 // components/Footer.tsx
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
 	return (
 		<footer className='bg-[#1b1b1b] text-gray-300 py-16 px-6'>
 			<div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12'>
-				{/* Columna 1 - Logo + descripción */}
+				{/* Coluna 1 - Logo + descrição */}
 				<div>
 					<Image
 						src='/assets/logo.svg'
@@ -15,65 +16,69 @@ export default function Footer() {
 						className='mb-4'
 					/>
 					<p className='text-sm text-gray-400'>
-						A modern and cozy restaurant offering an unforgettable dining
-						experience.
+						Um restaurante moderno e aconchegante oferecendo uma experiência
+						gastronômica inesquecível.
 					</p>
 				</div>
 
-				{/* Columna 2 - Navegación */}
+				{/* Coluna 2 - Navegação */}
 				<div>
-					<h3 className='text-lg font-semibold text-white mb-4'>Quick Links</h3>
+					<h3 className='text-lg font-semibold text-white mb-4'>
+						Links Rápidos
+					</h3>
 					<ul className='space-y-2 text-sm'>
 						<li>
-							<a
-								href='#'
+							<Link
+								href='/'
 								className='hover:text-orange-500'
 							>
-								Home
-							</a>
+								Início
+							</Link>
 						</li>
 						<li>
-							<a
-								href='#'
+							<Link
+								href='/menu'
 								className='hover:text-orange-500'
 							>
-								Menu
-							</a>
+								Cardápio
+							</Link>
 						</li>
 						<li>
-							<a
-								href='#'
+							<Link
+								href='/reservas'
 								className='hover:text-orange-500'
 							>
-								Reservations
-							</a>
+								Reservas
+							</Link>
 						</li>
 						<li>
-							<a
-								href='#'
+							<Link
+								href='/contact'
 								className='hover:text-orange-500'
 							>
-								Contact
-							</a>
+								Contato
+							</Link>
 						</li>
 					</ul>
 				</div>
 
-				{/* Columna 3 - Contacto + Redes */}
+				{/* Coluna 3 - Contato + Redes */}
 				<div>
-					<h3 className='text-lg font-semibold text-white mb-4'>Contact Us</h3>
+					<h3 className='text-lg font-semibold text-white mb-4'>Contato</h3>
 					<p className='text-sm text-gray-400 mb-4'>
-						123 Flavor Street, Caxias do Sul, RS
+						Rua do Sabor 123, Caxias do Sul, RS
 						<br />
 						(55) 99999-9999
 						<br />
-						contact@tastybites.com
+						contato@arepaburguer.com
 					</p>
 
 					<div className='flex gap-4 mt-4'>
 						<a
-							href='#'
+							href='https://facebook.com/arepaburguer'
 							aria-label='Facebook'
+							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<Image
 								src='/assets/facebook.svg'
@@ -83,8 +88,10 @@ export default function Footer() {
 							/>
 						</a>
 						<a
-							href='#'
+							href='https://instagram.com/arepaburguer'
 							aria-label='Instagram'
+							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<Image
 								src='/assets/instagram.svg'
@@ -94,8 +101,10 @@ export default function Footer() {
 							/>
 						</a>
 						<a
-							href='#'
+							href='https://x.com/arepaburguer'
 							aria-label='X (Twitter)'
+							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<Image
 								src='/assets/twitter.svg'
@@ -109,7 +118,8 @@ export default function Footer() {
 			</div>
 
 			<div className='text-center text-xs text-gray-500 mt-12'>
-				© {new Date().getFullYear()} TastyBites. All rights reserved.
+				© {new Date().getFullYear()} ArepaBurguer. Todos os direitos
+				reservados.
 			</div>
 		</footer>
 	);

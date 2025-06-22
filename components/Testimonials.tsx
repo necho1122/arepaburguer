@@ -4,24 +4,24 @@ import Image from 'next/image';
 const testimonials = [
 	{
 		name: 'Sophia Moore',
-		role: 'Food Blogger',
+		role: 'Blogueira de Gastronomia',
 		image: '/assets/clients/client.svg',
 		comment:
-			'Absolutely fantastic experience! The flavors were amazing and the service was top-notch. Highly recommend!',
+			'Experiência absolutamente fantástica! Os sabores estavam incríveis e o atendimento foi de primeira. Recomendo muito!',
 	},
 	{
 		name: 'Lucas Brown',
-		role: 'Chef & Critic',
+		role: 'Chef & Crítico',
 		image: '/assets/clients/client.svg',
 		comment:
-			'The ambience and the dishes made this a night to remember. True culinary artistry in every bite.',
+			'O ambiente e os pratos fizeram desta noite algo inesquecível. Verdadeira arte culinária em cada mordida.',
 	},
 	{
 		name: 'Emily White',
-		role: 'Travel Vlogger',
+		role: 'Vlogueira de Viagens',
 		image: '/assets/clients/client.svg',
 		comment:
-			'One of the best dining experiences I’ve had this year. Cozy, elegant, and so flavorful!',
+			'Uma das melhores experiências gastronômicas que tive este ano. Aconchegante, elegante e muito saboroso!',
 	},
 ];
 
@@ -29,10 +29,11 @@ export default function Testimonials() {
 	return (
 		<section className='py-20 bg-[#f2f4f5] px-6 max-w-7xl mx-auto text-center'>
 			<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-				What Our Clients Say
+				O que dizem nossos clientes
 			</h2>
 			<p className='text-gray-600 mb-12 max-w-xl mx-auto'>
-				Hear from the people who’ve dined with us and loved every moment of it.
+				Veja o que as pessoas que já provaram nossos pratos acharam da
+				experiência.
 			</p>
 
 			<div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -44,7 +45,7 @@ export default function Testimonials() {
 						<div className='flex items-center gap-4 mb-4'>
 							<Image
 								src={t.image}
-								alt={`Photo of ${t.name}`}
+								alt={`Foto de ${t.name}`}
 								width={50}
 								height={50}
 								className='rounded-full shadow'

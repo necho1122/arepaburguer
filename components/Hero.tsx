@@ -44,25 +44,24 @@ export default function Hero() {
 			<div className='relative z-20 flex flex-col items-center text-center px-6 mt-30'>
 				<Image
 					src='/assets/arepaburguer-logo.png'
-					alt='ArepaBurguer Logo'
+					alt='Logo ArepaBurguer'
 					width={logoSize}
 					height={logoSize}
-					className='mb-6 rounded-full bg-white/80 p-2 shadow-lg'
 				/>
 				<h1 className='text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg mb-4'>
 					ArepaBurguer
 				</h1>
 				<p className='text-lg md:text-2xl text-gray-100 mb-8 max-w-2xl'>
-					The perfect blend of Venezuelan tradition and gourmet burgers. Taste
-					the difference!
+					A perfeita fusão da tradição venezuelana com hambúrgueres gourmet.
+					Sinta a diferença!
 				</p>
 				<div className='flex gap-4'>
-					<button className='bg-orange-500 text-white px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition text-lg font-semibold'>
-						Order Now
+					<button className='hover:cursor-pointer bg-orange-500 text-white px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition text-lg font-semibold'>
+						Pedir agora
 					</button>
 					<Link href='/menu'>
-						<button className='border border-orange-500 text-orange-500 px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition text-lg font-semibold bg-white/80'>
-							View Menu
+						<button className='hover:cursor-pointer border border-orange-500 text-orange-500 px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition text-lg font-semibold bg-white/80'>
+							Ver cardápio
 						</button>
 					</Link>
 				</div>

@@ -3,23 +3,23 @@ import Image from 'next/image';
 
 const dishes = [
 	{
-		name: 'Lamp with Sauce',
-		desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
-		price: '$12.50',
+		name: 'Arepas Venezuelanas',
+		desc: 'Pão feito com farinha de milho, água e sal na chapa, recheado a gosto.',
+		price: 'R$26.00',
 		rating: 4.8,
 		image: '/assets/dishes/arepas.webp',
 	},
 	{
-		name: 'Fried Chicken',
-		desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
-		price: '$10.00',
+		name: 'Parrilla Mista',
+		desc: 'Carne em tiras, frango em tiras, calabresa em rodelas, pimentão em tiras, cebola e alho (todos flambados). Acompanhamentos: Batatas fritas, Polenta frita, Queijo na chapa, Arepitas de banana frita, Maionese verde para acompanhar.',
+		price: 'R$90.00',
 		rating: 4.5,
-		image: '/assets/dishes/empanadas.webp', // updated image path
+		image: '/assets/dishes/parrilla-mista.webp', // updated image path
 	},
 	{
-		name: 'Special Soup and Creamer',
-		desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
-		price: '$9.75',
+		name: 'Hambúrgueres',
+		desc: 'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino, maionese, ketchup, mostarda e maionese verde. Acompanha fritas e maionese verde.',
+		price: 'R$39.00',
 		rating: 4.7,
 		image: '/assets/dishes/burger.jpg', // updated image path
 	},
@@ -32,10 +32,11 @@ export default function SpecialDishes() {
 			id='menu'
 		>
 			<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-				Our Special Dishes
+				Nossos Pratos Especiais
 			</h2>
 			<p className='text-gray-600 mb-10 max-w-xl mx-auto'>
-				Enjoy a variety of delicious meals carefully prepared by our top chefs.
+				Aproveite uma variedade de refeições deliciosas cuidadosamente
+				preparadas pelos nossos melhores chefs.
 			</p>
 
 			<div className='grid grid-cols-1 md:grid-cols-3 gap-8'>

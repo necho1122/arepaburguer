@@ -180,72 +180,72 @@ const menu = [
 		],
 	},
 	{
-		category: 'Xis e Cachorros-quentes',
+		category: 'Cachorros-quentes',
 		items: [
-			{
-				name: 'Xis Tudo',
-				ingredients:
-					'Pão, hambúrguer, calabresa, bacon, filé, presunto, ovo, milho, ervilha, ketchup, maionese, batata palha. Acompanha maionese caseira.',
-				price: 'R$ 35,00',
-			},
-			{
-				name: 'Xis Frango',
-				ingredients:
-					'Hambúrguer de frango, queijo, alface, milho, ervilha, tomate, ketchup, batata palha. Acompanha maionese caseira.',
-				price: 'R$ 32,00',
-			},
 			{
 				name: 'Cachorro-quente Simples (prensado)',
 				ingredients:
-					'1 salsicha, milho, ervilha, batata palha, ketchup, maionese. Acompanha maionese caseira.',
+					'Pão, 1 salsicha, milho, ervilha, ketchup, maionese, molho e batata palha. Acompanha maionese verde.',
 				price: 'R$ 16,00',
 			},
 			{
 				name: 'Cachorro-quente Duplo (prensado)',
 				ingredients:
-					'2 salsichas, milho, ervilha, batata palha, ketchup, maionese. Acompanha maionese caseira.',
+					'Pão, 2 salsichas, milho, ervilha, ketchup, maionese, molho e batata palha. Acompanha maionese verde.',
 				price: 'R$ 18,00',
 			},
 		],
 		image: '/assets/dishes/hotdog.webp',
 	},
 	{
-		category: 'Outros Xis',
+		category: 'Xis',
 		items: [
 			{
 				name: 'Xis Salada',
 				ingredients:
-					'Pão, hambúrguer, queijo, tomate, alface, ervilha, ovo, batata palha. Acompanha maionese caseira.',
-				price: 'R$ 27,00',
+					'Pão, hambúrguer, queijo, tomate, alface, ervilha, ketchup, maionese, ovo e batata palha. Acompanha maionese verde.',
+				price: 'R$ 23,00',
 			},
 			{
 				name: 'Xis Bacon',
 				ingredients:
-					'Pão, hambúrguer, bacon, queijo, tomate, alface, ervilha, milho, ovo. Acompanha maionese caseira e batata palha.',
-				price: 'R$ 33,00',
+					'Pão, hambúrguer, bacon, queijo, tomate, alface, ervilha, milho, ketchup, maionese, ovo e batata palha. Acompanha maionese verde.',
+				price: 'R$ 27,00',
 			},
 			{
 				name: 'Xis Coração',
 				ingredients:
-					'Pão, coração de frango, queijo, tomate, ervilha, milho, alface, batata palha, bacon. Acompanha maionese caseira.',
+					'Pão, coração de frango, queijo, tomate, ervilha, milho, alface, batata palha e bacon. Acompanha maionese verde.',
 				price: 'R$ 33,00',
 			},
 			{
 				name: 'Xis Calabresa',
 				ingredients:
-					'Pão, calabresa fatiada, queijo, milho, tomate, alface, ervilha, ketchup, maionese. Acompanha maionese caseira e batata palha.',
-				price: 'R$ 32,00',
+					'Pão, calabresa fatiada, queijo, milho, tomate, alface, ervilha, ketchup, maionese, ovo e batata palha. Acompanha maionese verde.',
+				price: 'R$ 27,00',
 			},
 			{
 				name: 'Xis Filé',
 				ingredients:
-					'Pão, filé, queijo, tomate, alface, milho, ervilha, bacon, ovo, ketchup. Acompanha batata palha.',
+					'Pão, filé, queijo, tomate, alface, milho, ervilha, bacon, ovo, ketchup, maionese e batata palha. Acompanha maionese verde.',
 				price: 'R$ 35,00',
 			},
 			{
 				name: 'Xis Presunto',
 				ingredients:
-					'Pão, hambúrguer, presunto, queijo, milho, ervilha, ovo, tomate, alface, ketchup, maionese, batata palha.',
+					'Pão, hambúrguer, presunto, queijo, milho, ervilha, ovo, tomate, alface, ketchup, maionese e batata palha. Acompanha maionese verde.',
+				price: 'R$ 23,00',
+			},
+			{
+				name: 'Xis Tudo',
+				ingredients:
+					'Pão, hambúrguer, calabresa, bacon, filé, presunto, coraçao, ovo, milho, ervilha, ketchup, maionese e batata palha. Acompanha maionese verde.',
+				price: 'R$ 35,00',
+			},
+			{
+				name: 'Xis Frango',
+				ingredients:
+					'Pão, Hambúrguer de frango, queijo, alface, milho, ervilha, tomate, maionese, ketchup, ovo e batata palha. Acompanha maionese verde.',
 				price: 'R$ 23,00',
 			},
 		],
@@ -255,7 +255,9 @@ const menu = [
 		category: 'Lasanha',
 		items: [
 			{
-				name: 'Lasanha de carne (700g)',
+				name: 'Lasanha a Bolonhesa (700g)',
+				ingredients:
+					'Molho de tomate, presunto, molho a bolonhesa, queijo ralado, queijo fatiado',
 				price: 'R$ 30,00',
 			},
 		],

@@ -24,7 +24,6 @@ export const metadata: Metadata = {
 		'hamburguesas Caracas',
 		'comida venezolana',
 		'comida rápida gourmet',
-		'areperas en Caracas',
 		'mejores arepas',
 		'burger gourmet Venezuela',
 	],
@@ -46,7 +45,7 @@ export const metadata: Metadata = {
 				alt: 'ArepaBurguer restaurant photo',
 			},
 		],
-		locale: 'es_VE',
+		locale: 'pt-BR',
 		type: 'website',
 	},
 	robots: {

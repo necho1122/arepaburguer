@@ -60,81 +60,75 @@ const menu = [
 			{
 				name: 'Pabellón',
 				ingredients:
-					'Arepa, queijo, carne desfiada, banana da terra, maionese verde e feijão preto',
+					'Arepa, queijo, carne desfiada, banana da terra, maionese verde e feijão preto. Acompanha maionese verde.',
 				price: 'R$ 26,00',
 			},
 			{
 				name: 'Catira',
-				ingredients: 'Arepa, frango desfiado, queijo, maionese verde',
-				price: 'R$ 24,00',
+				ingredients:
+					'Arepa, frango desfiado, queijo. Acompanha maionese verde.',
+				price: 'R$ 21,00',
 			},
 			{
 				name: 'Pelúa',
-				ingredients: 'Arepa, carne desfiada, queijo, maionese verde',
+				ingredients: 'Arepa, carne desfiada, queijo. Acompanha maionese verde.',
 				price: 'R$ 24,00',
 			},
 			{
 				name: 'Americana',
-				ingredients: 'Presunto, queijo, maionese verde',
+				ingredients: 'Presunto, queijo. Acompanha maionese verde.',
 				price: 'R$ 21,00',
 			},
 			{
 				name: 'Arepa Saltada',
-				ingredients: 'Carne em tiras, pimentão, cebola, maionese',
+				ingredients:
+					'Carne em tiras, pimentão, cebola. Acompanha maionese verde.',
 				price: 'R$ 24,00',
 			},
 		],
 		image: '/assets/dishes/arepas.webp',
 	},
 	{
-		category: 'Hambúrgueres',
+		category: 'Hambúrguer',
 		items: [
 			{
 				name: 'Hambúrguer da Casa',
 				ingredients:
-					'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino, maionese, ketchup, mostarda e maionese verde. Acompanha fritas e maionese verde.',
+					'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino en conserva, maionese, ketchup, mostarda e maionese verde. Acompanha batata frita e maionese verde.',
 				price: 'R$ 39,00',
 			},
 			{
 				name: 'Hambúrguer Tradicional',
 				ingredients:
-					'Pão, hambúrguer, ovo, presunto, queijo, tomate, alface, maionese, ketchup e mostarda. Acompanha fritas e maionese verde.',
-				price: 'R$ 34,00',
+					'Pão, hambúrguer, ovo, presunto, queijo, tomate, alface, maionese, ketchup e mostarda. Acompanha batata frita e maionese verde.',
+				price: 'R$ 31,00',
 			},
 			{
 				name: 'Hambúrguer de Bacon',
 				ingredients:
-					'Pão, hambúrguer, bacon, ovo, queijo, alface, maionese, ketchup e mostarda. Acompanha fritas e maionese verde.',
+					'Pão, hambúrguer, bacon, ovo, queijo, alface, tomate, maionese, ketchup e mostarda. Acompanha batata frita e maionese verde.',
 				price: 'R$ 30,00',
 			},
 			{
 				name: 'Hambúrguer Cheddar',
 				ingredients:
-					'Pão, hambúrguer, queijo cheddar, ovo, presunto, tomate, alface, maionese, ketchup e mostarda. Acompanha fritas e maionese verde.',
+					'Pão, hambúrguer, queijo cheddar, ovo, presunto, tomate, alface, maionese, ketchup e mostarda. Acompanha batata frita e maionese verde.',
 				price: 'R$ 33,00',
-			},
-			{
-				name: 'Hambúrguer Vegetariano',
-				ingredients: 'VER',
-				price: '',
 			},
 		],
 		image: '/assets/dishes/burger.jpg',
 	},
 	{
-		category: 'Porções e Kids',
+		category: 'Porções Kids',
 		items: [
 			{
-				name: 'Fritas Média (250g)',
-				price: 'R$ 15,00',
-			},
-			{
-				name: 'Fritas Grande (500g)',
-				price: 'R$ 25,00',
-			},
-			{
-				name: 'Porção Kids',
+				name: 'Porção Kids (Nuggets)',
 				ingredients: 'Nuggets, batata sorriso, suco e Kinder Ovo.',
+				price: 'R$ 28,00',
+			},
+			{
+				name: 'Porção Kids (File)',
+				ingredients: 'File, batata sorriso, suco e Kinder Ovo.',
 				price: 'R$ 28,00',
 			},
 			{
@@ -153,12 +147,12 @@ const menu = [
 			{ name: 'Maracujá', price: 'R$ 12,00' },
 			{ name: 'Abacaxi com hortelã', price: 'R$ 12,00' },
 			{ name: 'Limonada suíça', price: 'R$ 12,00' },
-			{ name: 'Limonada c/ hortelã', price: 'R$ 12,00' },
+			{ name: 'Limonada com hortelã', price: 'R$ 12,00' },
 			{ name: 'Laranja', price: 'R$ 12,00' },
 			{ name: 'Manga', price: 'R$ 12,00' },
 			{ name: 'Goiaba', price: 'R$ 12,00' },
 			{ name: 'Acerola', price: 'R$ 12,00' },
-			{ name: 'Abacaxi, morango e hortelã', price: 'R$ 12,00' },
+			{ name: 'Abacaxi, acerola e hortelã', price: 'R$ 12,00' },
 			{ name: 'Acerola com laranja', price: 'R$ 12,00' },
 		],
 		image: '/assets/dishes/sucos.webp',
@@ -357,7 +351,7 @@ export default function MenuPage() {
 								/>
 							</div>
 						)}
-						<h2 className='text-xl font-bold text-orange-500 mb-2'>
+						<h2 className='text-xl font-bold text-orange-500 mb-2 mt-2'>
 							{section.category}
 						</h2>
 						{section.description && (

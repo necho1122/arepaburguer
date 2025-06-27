@@ -1,5 +1,6 @@
 // components/Welcome.tsx
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Welcome() {
 	return (
@@ -25,9 +26,11 @@ export default function Welcome() {
 					Experimente o melhor da culinária venezuelana com um toque especial.
 					Sinta-se em casa e aproveite cada sabor!
 				</p>
-				<button className='bg-orange-500 text-white py-3 px-6 rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md hover:bg-orange-600 transition shadow'>
-					Reservar uma mesa
-				</button>
+				<Link href='https://wa.me/555496650797'>
+					<button className='bg-orange-500 text-white py-3 px-6 rounded-tl-xl rounded-br-xl rounded-tr-md rounded-bl-md hover:bg-orange-600 transition shadow'>
+						Reservar uma mesa
+					</button>
+				</Link>
 			</div>
 		</section>
 	);

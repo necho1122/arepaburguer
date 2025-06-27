@@ -50,12 +50,12 @@ export default function Header() {
 
 				{/* CTA */}
 				<div className='hidden md:block'>
-					<a
-						href='#'
+					<Link
+						href='https://wa.me/555496650797'
 						className='bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm transition-colors shadow'
 					>
 						Reservar agora
-					</a>
+					</Link>
 				</div>
 
 				{/* Mobile Menu Icon */}
@@ -85,13 +85,13 @@ export default function Header() {
 							{link.name}
 						</Link>
 					))}
-					<a
-						href='#'
+					<Link
+						href='https://wa.me/555496650797'
 						className='mt-4 bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm text-center shadow transition-colors'
 						onClick={() => setMenuOpen(false)}
 					>
 						Reservar agora
-					</a>
+					</Link>
 				</nav>
 			</div>
 		</header>

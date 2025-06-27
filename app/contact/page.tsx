@@ -46,19 +46,19 @@ export default function ContactPage() {
 			{/* Informações de contato */}
 			<div className='relative z-10 text-center text-gray-800 space-y-4'>
 				<p>
-					<strong>Email:</strong> contato@arepaburguer.com
+					<strong>Email:</strong> rogerrodfiguez465@gmail.com
 				</p>
 				<p>
-					<strong>Telefone:</strong> +55 41 99999-9999
+					<strong>Telefone:</strong> +55 54 9665-0797
 				</p>
 				<p>
-					<strong>Endereço:</strong> Rua Gourmet, 123, Caxias do Sul, RS
+					<strong>Endereço:</strong> Bento Gonçalves, RS
 				</p>
 
 				{/* Redes sociais com ícones */}
 				<div className='flex flex-wrap justify-center gap-4 sm:gap-6 mt-6 text-orange-500'>
 					<a
-						href='https://instagram.com/arepaburguer'
+						href='https://instagram.com/arepaburguer1'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='flex items-center space-x-2 hover:underline'
@@ -100,7 +100,7 @@ export default function ContactPage() {
 						<span>Facebook</span>
 					</a>
 					<a
-						href='https://wa.me/5541999999999'
+						href='https://wa.me/555496650797'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='flex items-center space-x-2 hover:underline'

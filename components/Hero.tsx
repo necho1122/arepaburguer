@@ -56,9 +56,11 @@ export default function Hero() {
 					Sinta a diferença!
 				</p>
 				<div className='flex gap-4'>
-					<button className='hover:cursor-pointer bg-orange-500 text-white px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition text-lg font-semibold'>
-						Pedir agora
-					</button>
+					<Link href='https://wa.me/555496650797'>
+						<button className='hover:cursor-pointer bg-orange-500 text-white px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm shadow hover:bg-orange-600 transition text-lg font-semibold'>
+							Pedir agora
+						</button>
+					</Link>
 					<Link href='/menu'>
 						<button className='hover:cursor-pointer border border-orange-500 text-orange-500 px-8 py-3 rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-orange-100 transition text-lg font-semibold bg-white/80'>
 							Ver cardápio
@@ -66,27 +68,45 @@ export default function Hero() {
 					</Link>
 				</div>
 				<div className='flex gap-4 mt-8'>
-					<Image
-						src='/assets/facebook.svg'
-						alt='Facebook'
-						width={32}
-						height={32}
-						className='invert-[.9]'
-					/>
-					<Image
-						src='/assets/instagram.svg'
-						alt='Instagram'
-						width={32}
-						height={32}
-						className='invert-[.9]'
-					/>
-					<Image
-						src='/assets/twitter.svg'
-						alt='Twitter'
-						width={32}
-						height={32}
-						className='invert-[.9]'
-					/>
+					<a
+						href='https://facebook.com/exemplo'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<Image
+							src='/assets/facebook.svg'
+							alt='Facebook'
+							width={32}
+							height={32}
+							className='invert-[.9]'
+						/>
+					</a>
+					<a
+						href='https://www.instagram.com/arepaburguer1/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<Image
+							src='/assets/instagram.svg'
+							alt='Instagram'
+							width={32}
+							height={32}
+							className='invert-[.9]'
+						/>
+					</a>
+					<a
+						href='https://twitter.com/exemplo'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<Image
+							src='/assets/twitter.svg'
+							alt='Twitter'
+							width={32}
+							height={32}
+							className='invert-[.9]'
+						/>
+					</a>
 				</div>
 			</div>
 		</section>

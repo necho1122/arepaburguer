@@ -5,7 +5,7 @@ import Chef from '@/components/Chef';
 import Testimonials from '@/components/Testimonials';
 import Footer from '@/components/Footer';
 
-export default function Home() {
+export default function Page() {
 	return (
 		<div>
 			<Hero />

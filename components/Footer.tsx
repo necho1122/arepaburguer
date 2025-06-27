@@ -66,15 +66,15 @@ export default function Footer() {
 				<div>
 					<h3 className='text-lg font-semibold text-white mb-4'>Contato</h3>
 					<p className='text-sm text-gray-400 mb-4'>
-						Rua do Sabor 123, Caxias do Sul, RS
+						Bento Gonçalves, RS
 						<br />
-						(55) 99999-9999
+						+55 54 96650797
 						<br />
-						contato@arepaburguer.com
+						rogerrodfiguez465@gmail.com
 					</p>
 
 					<div className='flex gap-4 mt-4'>
-						<a
+						<Link
 							href='https://facebook.com/arepaburguer'
 							aria-label='Facebook'
 							target='_blank'
@@ -86,9 +86,9 @@ export default function Footer() {
 								width={24}
 								height={24}
 							/>
-						</a>
-						<a
-							href='https://instagram.com/arepaburguer'
+						</Link>
+						<Link
+							href='https://www.instagram.com/arepaburguer1/'
 							aria-label='Instagram'
 							target='_blank'
 							rel='noopener noreferrer'
@@ -99,8 +99,8 @@ export default function Footer() {
 								width={24}
 								height={24}
 							/>
-						</a>
-						<a
+						</Link>
+						<Link
 							href='https://x.com/arepaburguer'
 							aria-label='X (Twitter)'
 							target='_blank'
@@ -112,7 +112,7 @@ export default function Footer() {
 								width={24}
 								height={24}
 							/>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

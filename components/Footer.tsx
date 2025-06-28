@@ -101,17 +101,18 @@ export default function Footer() {
 							/>
 						</Link>
 						<Link
-							href='https://x.com/arepaburguer'
-							aria-label='X (Twitter)'
+							href='https://wa.me/555496650797'
 							target='_blank'
 							rel='noopener noreferrer'
+							className='flex items-center space-x-2 hover:underline'
 						>
 							<Image
-								src='/assets/twitter.svg'
-								alt='X'
-								width={24}
-								height={24}
+								src='/assets/whatsapp.svg'
+								alt='WhatsApp'
+								width={20}
+								height={20}
 							/>
+							<span>WhatsApp</span>
 						</Link>
 					</div>
 				</div>

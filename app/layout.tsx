@@ -52,14 +52,6 @@ export const metadata: Metadata = {
 		index: true,
 		follow: true,
 	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'ArepaBurguer | Venezuelan Gourmet Fusion',
-		description:
-			'Disfruta de las mejores arepas y hamburguesas en un ambiente moderno y acogedor.',
-		creator: '@arepaburguer',
-		images: ['https://arepaburguer.com/assets/og-image.jpg'],
-	},
 };
 
 export default function RootLayout({

@@ -72,20 +72,6 @@ export default function ContactPage() {
 						<span>Instagram</span>
 					</a>
 					<a
-						href='https://x.com/arepaburguer'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='flex items-center space-x-2 hover:underline'
-					>
-						<Image
-							src='/assets/twitter.svg'
-							alt='X'
-							width={20}
-							height={20}
-						/>
-						<span>X (Twitter)</span>
-					</a>
-					<a
 						href='https://www.facebook.com/profile.php?id=61578078020664'
 						target='_blank'
 						rel='noopener noreferrer'

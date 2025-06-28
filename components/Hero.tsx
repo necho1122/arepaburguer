@@ -94,19 +94,6 @@ export default function Hero() {
 							className='invert-[.9]'
 						/>
 					</a>
-					<a
-						href='https://twitter.com/exemplo'
-						target='_blank'
-						rel='noopener noreferrer'
-					>
-						<Image
-							src='/assets/twitter.svg'
-							alt='Twitter'
-							width={32}
-							height={32}
-							className='invert-[.9]'
-						/>
-					</a>
 				</div>
 			</div>
 		</section>

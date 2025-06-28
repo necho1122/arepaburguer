@@ -86,7 +86,7 @@ export default function ContactPage() {
 						<span>X (Twitter)</span>
 					</a>
 					<a
-						href='https://facebook.com/arepaburguer'
+						href='https://www.facebook.com/profile.php?id=61578078020664'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='flex items-center space-x-2 hover:underline'

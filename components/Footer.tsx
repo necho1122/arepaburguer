@@ -75,7 +75,7 @@ export default function Footer() {
 
 					<div className='flex gap-4 mt-4'>
 						<Link
-							href='https://facebook.com/arepaburguer'
+							href='https://www.facebook.com/profile.php?id=61578078020664'
 							aria-label='Facebook'
 							target='_blank'
 							rel='noopener noreferrer'
@@ -88,7 +88,7 @@ export default function Footer() {
 							/>
 						</Link>
 						<Link
-							href='https://www.instagram.com/arepaburguer1/'
+							href='https://instagram.com/arepaburguer1'
 							aria-label='Instagram'
 							target='_blank'
 							rel='noopener noreferrer'

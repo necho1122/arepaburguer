@@ -3,25 +3,25 @@ import Image from 'next/image';
 
 const testimonials = [
 	{
-		name: 'Sophia Moore',
-		role: 'Blogueira de Gastronomia',
+		name: 'Ana Souza',
+		role: 'Cliente',
 		image: '/assets/clients/client.svg',
 		comment:
-			'Experiência absolutamente fantástica! Os sabores estavam incríveis e o atendimento foi de primeira. Recomendo muito!',
+			'Simplesmente maravilhoso! As arepas estavam deliciosas e o atendimento foi excelente. Voltarei mais vezes!',
 	},
 	{
-		name: 'Lucas Brown',
-		role: 'Chef & Crítico',
+		name: 'Carlos Silva',
+		role: 'Cliente',
 		image: '/assets/clients/client.svg',
 		comment:
-			'O ambiente e os pratos fizeram desta noite algo inesquecível. Verdadeira arte culinária em cada mordida.',
+			'Ambiente aconchegante e comida de qualidade. Recomendo muito o hambúrguer da casa!',
 	},
 	{
-		name: 'Emily White',
-		role: 'Vlogueira de Viagens',
+		name: 'Juliana Pereira',
+		role: 'Cliente',
 		image: '/assets/clients/client.svg',
 		comment:
-			'Uma das melhores experiências gastronômicas que tive este ano. Aconchegante, elegante e muito saboroso!',
+			'Adorei a experiência! Os sabores são autênticos e o cardápio é bem variado. Parabéns à equipe!',
 	},
 ];
 

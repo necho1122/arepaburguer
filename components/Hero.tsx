@@ -69,7 +69,7 @@ export default function Hero() {
 				</div>
 				<div className='flex gap-4 mt-8'>
 					<a
-						href='https://facebook.com/exemplo'
+						href='https://www.facebook.com/profile.php?id=61578078020664'
 						target='_blank'
 						rel='noopener noreferrer'
 					>

@@ -263,6 +263,20 @@ const menu = [
 		],
 		image: '/assets/dishes/welcome-plate.jpg',
 	},
+	{
+		category: 'Batata Frita',
+		items: [
+			{
+				name: 'Média (250g)',
+				price: 'R$ 15,00',
+			},
+			{
+				name: 'Grande (500g)',
+				price: 'R$ 25,00',
+			},
+		],
+		image: '/assets/dishes/batata-frita.webp',
+	},
 ];
 
 export default function MenuPage() {

@@ -68,7 +68,7 @@ export default function Hero() {
 					</Link>
 				</div>
 				<div className='flex gap-4 mt-8'>
-					<a
+					<Link
 						href='https://www.facebook.com/profile.php?id=61578078020664'
 						target='_blank'
 						rel='noopener noreferrer'
@@ -80,8 +80,8 @@ export default function Hero() {
 							height={32}
 							className='invert-[.9]'
 						/>
-					</a>
-					<a
+					</Link>
+					<Link
 						href='https://www.instagram.com/arepaburguer1/'
 						target='_blank'
 						rel='noopener noreferrer'
@@ -93,7 +93,20 @@ export default function Hero() {
 							height={32}
 							className='invert-[.9]'
 						/>
-					</a>
+					</Link>
+					<Link
+						href='https://wa.me/555496650797'
+						target='_blank'
+						rel='noopener noreferrer'
+						className='flex items-center space-x-2 hover:underline'
+					>
+						<Image
+							src='/assets/whatsapp.svg'
+							alt='WhatsApp'
+							width={32}
+							height={32}
+						/>
+					</Link>
 				</div>
 			</div>
 		</section>

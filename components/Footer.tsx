@@ -112,7 +112,6 @@ export default function Footer() {
 								width={20}
 								height={20}
 							/>
-							<span>WhatsApp</span>
 						</Link>
 					</div>
 				</div>

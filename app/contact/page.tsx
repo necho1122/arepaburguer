@@ -52,7 +52,8 @@ export default function ContactPage() {
 					<strong>Telefone:</strong> +55 54 9665-0797
 				</p>
 				<p>
-					<strong>Endereço:</strong> Bento Gonçalves, RS
+					<strong>Endereço:</strong> Av. São Roque 1622, Bairro são Roque, Bento
+					Gonçalves, RS
 				</p>
 
 				{/* Redes sociais com ícones */}

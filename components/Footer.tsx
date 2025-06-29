@@ -66,7 +66,7 @@ export default function Footer() {
 				<div>
 					<h3 className='text-lg font-semibold text-white mb-4'>Contato</h3>
 					<p className='text-sm text-gray-400 mb-4'>
-						Bento Gonçalves, RS
+						Av. São Roque 1622, Bairro são Roque, Bento Gonçalves, RS
 						<br />
 						+55 54 96650797
 						<br />

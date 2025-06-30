@@ -60,7 +60,7 @@ const menu = [
 			{
 				name: 'Pabellón',
 				ingredients:
-					'Arepa, queijo, carne desfiada, banana da terra, maionese verde e feijão preto. Acompanha maionese verde.',
+					'Arepa, queijo, carne desfiada, banana da terra e feijão preto. Acompanha maionese verde.',
 				price: 'R$ 26,00',
 			},
 			{
@@ -203,7 +203,7 @@ const menu = [
 			{
 				name: 'Xis Salada',
 				ingredients:
-					'Pão, hambúrguer, queijo, tomate, alface, ervilha, ketchup, maionese, ovo e batata palha. Acompanha maionese verde.',
+					'Pão, hambúrguer, queijo, tomate, alface, ervilha, milho, ketchup, maionese, ovo e batata palha. Acompanha maionese verde.',
 				price: 'R$ 23,00',
 			},
 			{

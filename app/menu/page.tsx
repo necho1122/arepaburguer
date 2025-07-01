@@ -29,9 +29,9 @@ const menu = [
 		image: '/assets/dishes/empanadas.webp',
 	},
 	{
-		category: 'Ronda Venezuelana',
+		category: 'Ronda Venezolana',
 		description:
-			'Misto de lanches venezuelanos: Tequeños, Mini empanadas mistas, Mini arepas mistas, Bolinhas de carne, Patacón misto, Maionese verde para acompanhar.',
+			'Misto de lanches venezuelanos: Tequenhos, Mini empanadas mistas, Mini arepas mistas, Bolinhas de carne, Patacón misto, Maionese verde para acompanhar.',
 		items: [
 			{
 				name: 'Ronda Venezuelana',
@@ -94,7 +94,7 @@ const menu = [
 			{
 				name: 'Hambúrguer da Casa',
 				ingredients:
-					'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino en conserva, maionese, ketchup, mostarda e maionese verde. Acompanha batata frita e maionese verde.',
+					'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino en conserva, maionese, ketchup e mostarda. Acompanha batata frita e maionese verde.',
 				price: 'R$ 39,00',
 			},
 			{
@@ -160,7 +160,7 @@ const menu = [
 	{
 		category: 'Açaí',
 		description:
-			'Inclui até 3 ingredientes: Morango, banana, chocolate preto/branco, paçoca, leite em pó, calda de chocolate/morango/caramelo, granola.',
+			'Inclui até 3 ingredientes: Morango, banana, chocolate preto/branco, paçoca, leite condensado leite em pó, calda de chocolate/morango/caramelo, granola.',
 		items: [
 			{ name: '300ml', price: 'R$ 16,00' },
 			{ name: '400ml', price: 'R$ 20,00' },

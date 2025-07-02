@@ -53,7 +53,7 @@ const menu = [
 		image: '/assets/dishes/parrilla-mista.webp',
 	},
 	{
-		category: 'Arepas Venezuelanas',
+		category: 'Arepas Venezolanas',
 		description:
 			'Pão feito com farinha de milho, água e sal na chapa, recheado a gosto.',
 		items: [
@@ -277,6 +277,94 @@ const menu = [
 		],
 		image: '/assets/dishes/batata-frita.webp',
 	},
+	{
+		category: 'Refrigerantes',
+		description:
+			'Diversos sabores em garrafas e latas, incluindo opções com e sem açúcar.',
+		items: [
+			{ name: 'Fanta Laranja (600 ml)', price: 'R$ 7,00' },
+			{ name: 'Fanta Uva (600 ml)', price: 'R$ 7,00' },
+			{ name: 'Guaraná Antarctica (600 ml)', price: 'R$ 7,00' },
+			{ name: 'Coca-Cola (600 ml)', price: 'R$ 7,00' },
+			{ name: 'Coca-Cola sem açúcar (600 ml)', price: 'R$ 7,00' },
+			{ name: 'Sprite (600 ml)', price: 'R$ 7,00' },
+			{ name: 'Tônica (350 ml)', price: 'R$ 5,00' },
+			{ name: 'Tônica sem açúcar (350 ml)', price: 'R$ 5,00' },
+			{ name: 'Fanta Uva (lata 350 ml)', price: 'R$ 5,00' },
+			{ name: 'Fanta Laranja (lata 350 ml)', price: 'R$ 5,00' },
+			{ name: 'Guaraná Antarctica (lata 350 ml)', price: 'R$ 5,00' },
+			{ name: 'Sprite (lata 350 ml)', price: 'R$ 5,00' },
+			{ name: 'Coca-Cola (lata 350 ml)', price: 'R$ 5,00' },
+			{ name: 'Coca-Cola sem açúcar (lata 350 ml)', price: 'R$ 5,00' },
+			{ name: 'Pepsi sem açúcar (lata 350 ml)', price: 'R$ 5,00' },
+		],
+		image: '/assets/dishes/refrigerantes.webp',
+	},
+
+	{
+		category: 'Refrigerantes 2L e 3L',
+		description:
+			'Refrigerantes familiares de 2L e 3L, ideais para compartilhar.',
+		items: [
+			{ name: 'Pepsi (2 L)', price: 'R$ 12,00' },
+			{ name: 'Pepsi sem açúcar (2 L)', price: 'R$ 12,00' },
+			{ name: 'Pepsi Twist (2 L)', price: 'R$ 12,00' },
+			{ name: 'Coca-Cola (2 L)', price: 'R$ 14,00' },
+			{ name: 'Coca-Cola sem açúcar (2 L)', price: 'R$ 14,00' },
+			{ name: 'Fanta Laranja (2 L)', price: 'R$ 12,00' },
+			{ name: 'Fanta Uva (2 L)', price: 'R$ 12,00' },
+			{ name: 'Sprite (2 L)', price: 'R$ 12,00' },
+			{ name: 'H2OH Limão (1,5 L)', price: 'R$ 11,00' },
+			{ name: 'H2OH Limemeto (1,5 L)', price: 'R$ 11,00' },
+			{ name: 'Guaraná Convenção (2 L)', price: 'R$ 6,00' },
+			{ name: 'Guaraná antártica (2 L)', price: 'R$ 13.00' },
+			{ name: 'Fruki Guaraná (3 L)', price: 'R$ 13,00' },
+			{ name: 'Fruki Laranja (3 L)', price: 'R$ 12,00' },
+			{ name: 'Guaraná Charrua (2 L)', price: 'R$ 8,00' },
+			{ name: 'Sukita Laranja (2 L)', price: 'R$ 11,00' },
+			{ name: 'Pepita Guaraná (2 L)', price: 'R$ 6,00' },
+			{ name: 'Pepita Laranja (2 L)', price: 'R$ 6,00' },
+			{ name: 'Pepita Uva (2 L)', price: 'R$ 6,00' },
+			{ name: 'Pepita Limão (2 L)', price: 'R$ 6,00' },
+		],
+		image: '/assets/dishes/refrigerantes-2l.webp',
+	},
+	{
+		category: 'Cervejas e Chopp',
+		description: 'Cervejas nacionais e importadas, além de chopes especiais.',
+		items: [
+			{ name: 'Brahma Malzbier (350 ml)', price: 'R$ 8,00' },
+			{ name: 'Brahma Chopp (473 ml)', price: 'R$ 8,00' },
+			{ name: 'Bohemia (473 ml)', price: 'R$ 8,00' },
+			{ name: 'Stella Artois (473 ml)', price: 'R$ 9,00' },
+			{ name: 'Polar (473 ml)', price: 'R$ 8,00' },
+			{ name: 'Skol Pilsen (473 ml)', price: 'R$ 8,00' },
+			{ name: 'Corona (473 ml)', price: 'R$ 10,00' },
+			{ name: 'Original (473 ml)', price: 'R$ 8,00' },
+			{ name: 'Budweiser (473 ml)', price: 'R$ 9,00' },
+			{ name: 'Corona Long Neck (330 ml)', price: 'R$ 11,00' },
+			{ name: 'Budweiser Long Neck (330 ml)', price: 'R$ 10,00' },
+			{ name: 'Stella Artois Long Neck (330 ml)', price: 'R$ 10,00' },
+			{ name: 'Skol Beats S Long Neck (330 ml)', price: 'R$ 11,00' },
+			{ name: 'Skol Beats GT Long Neck (330 ml)', price: 'R$ 11,00' },
+			{ name: 'Chopp Valle Bier Pilsen (1,5 L)', price: 'R$ 19,90' },
+			{ name: 'Chopp Valle Bier Malzbier (1,5 L)', price: 'R$ 21,99' },
+		],
+		image: '/assets/dishes/cerveja.webp',
+	},
+	{
+		category: 'Águas',
+		description: 'Águas minerais com e sem gás em diversos volumes.',
+		items: [
+			{ name: 'Água com gás Pedra (2 L)', price: 'R$ 7,00' },
+			{ name: 'Água com gás Bamboo (1,5 L)', price: 'R$ 5,00' },
+			{ name: 'Água sem gás da Pedra (1,5 L)', price: 'R$ 6,00' },
+			{ name: 'Água sem gás Santa Justina (1,5 L)', price: 'R$ 4,00' },
+			{ name: 'Água com gás (500 ml)', price: 'R$ 3,00' },
+			{ name: 'Água sem gás (500 ml)', price: 'R$ 3,00' },
+		],
+		image: '/assets/dishes/agua.webp',
+	},
 ];
 
 export default function MenuPage() {
@@ -382,7 +470,7 @@ export default function MenuPage() {
 									className='mb-3 text-left'
 								>
 									<div className='flex flex-wrap justify-between items-center gap-x-2'>
-										<span className='font-semibold text-gray-800'>
+										<span className='font-semibold text-gray-800 text-sm'>
 											{item.name}
 										</span>
 										{item.price && (

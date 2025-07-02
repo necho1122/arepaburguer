@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const dishes = [
 	{
-		name: 'Arepas Venezuelanas',
+		name: 'Arepas Venezolanas',
 		desc: 'Pão feito com farinha de milho, água e sal na chapa, recheado a gosto.',
 		price: 'R$26.00',
 		rating: 4.8,
@@ -14,14 +14,14 @@ const dishes = [
 		desc: 'Carne em tiras, frango em tiras, calabresa em rodelas, pimentão em tiras, cebola e alho (todos flambados). Acompanhamentos: Batatas fritas, Polenta frita, Queijo na chapa, Arepitas de banana frita, Maionese verde para acompanhar.',
 		price: 'R$90.00',
 		rating: 4.5,
-		image: '/assets/dishes/parrilla-mista.webp', // updated image path
+		image: '/assets/dishes/parrilla-mista.webp',
 	},
 	{
 		name: 'Hambúrgueres',
 		desc: 'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino, maionese, ketchup, mostarda e maionese verde. Acompanha fritas e maionese verde.',
 		price: 'R$39.00',
 		rating: 4.7,
-		image: '/assets/dishes/burger.jpg', // updated image path
+		image: '/assets/dishes/burger.jpg',
 	},
 ];
 

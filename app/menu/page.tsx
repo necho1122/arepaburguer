@@ -356,7 +356,7 @@ const menu = [
 		category: 'Águas',
 		description: 'Águas minerais com e sem gás em diversos volumes.',
 		items: [
-			{ name: 'Água com gás Pedra (2 L)', price: 'R$ 7,00' },
+			{ name: 'Água com gás Da Pedra (2 L)', price: 'R$ 7,00' },
 			{ name: 'Água com gás Bamboo (1,5 L)', price: 'R$ 5,00' },
 			{ name: 'Água sem gás da Pedra (1,5 L)', price: 'R$ 6,00' },
 			{ name: 'Água sem gás Santa Justina (1,5 L)', price: 'R$ 4,00' },

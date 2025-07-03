@@ -316,7 +316,6 @@ const menu = [
 			{ name: 'Sprite (2 L)', price: 'R$ 12,00' },
 			{ name: 'H2O Limão (1,5 L)', price: 'R$ 11,00' },
 			{ name: 'H2O Limemeto (1,5 L)', price: 'R$ 11,00' },
-			{ name: 'Guaraná Convenção (2 L)', price: 'R$ 6,00' },
 			{ name: 'Guaraná antártica (2 L)', price: 'R$ 13.00' },
 			{ name: 'Fruki Guaraná (3 L)', price: 'R$ 13,00' },
 			{ name: 'Fruki Laranja (3 L)', price: 'R$ 12,00' },

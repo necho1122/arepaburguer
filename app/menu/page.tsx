@@ -94,7 +94,7 @@ const menu = [
 			{
 				name: 'Hambúrguer da Casa',
 				ingredients:
-					'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino en conserva, maionese, ketchup e mostarda. Acompanha batata frita e maionese verde.',
+					'Pão, hambúrguer, frango, ovo, bacon, presunto, queijo, tomate, alface, pepino em conserva, maionese, ketchup e mostarda. Acompanha batata frita e maionese verde.',
 				price: 'R$ 39,00',
 			},
 			{
@@ -160,7 +160,7 @@ const menu = [
 	{
 		category: 'Açaí',
 		description:
-			'Inclui até 3 ingredientes: Morango, banana, chocolate preto/branco, paçoca, leite condensado leite em pó, calda de chocolate/morango/caramelo, granola.',
+			'Inclui até 3 ingredientes: Morango, banana, chocolate preto/branco, paçoca, leite condensado, leite em pó, calda de chocolate/morango/caramelo, granola.',
 		items: [
 			{ name: '300ml', price: 'R$ 16,00' },
 			{ name: '400ml', price: 'R$ 20,00' },
@@ -257,7 +257,7 @@ const menu = [
 			{
 				name: 'Lasanha a Bolonhesa (700g)',
 				ingredients:
-					'Molho de tomate, presunto, molho a bolonhesa, queijo ralado, queijo fatiado',
+					'Molho de tomate, presunto, molho a bolonhesa, queijo ralado, queijo fatiado, molho bechamel',
 				price: 'R$ 30,00',
 			},
 		],

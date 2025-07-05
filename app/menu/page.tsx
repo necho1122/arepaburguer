@@ -215,7 +215,7 @@ const menu = [
 			{
 				name: 'Xis Coração',
 				ingredients:
-					'Pão, coração de frango, queijo, tomate, ervilha, milho, alface, batata palha e bacon. Acompanha maionese verde.',
+					'Pão, coração de frango, queijo, tomate, ervilha, milho, alface, ketchup, maionese, batata palha e bacon. Acompanha maionese verde.',
 				price: 'R$ 33,00',
 			},
 			{

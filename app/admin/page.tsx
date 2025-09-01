@@ -87,7 +87,7 @@ function AdminCRUD() {
 				});
 			}
 			setCategories(cats);
-		} catch (err: any) {
+		} catch {
 			setError('Error cargando datos');
 		}
 		setLoading(false);
@@ -340,6 +340,7 @@ function AdminCRUD() {
 								</span>
 								<span className='text-gray-500 text-sm'>{cat.description}</span>
 								{cat.image && (
+									// eslint-disable-next-line @next/next/no-img-element
 									<img
 										src={cat.image}
 										alt={cat.category}
@@ -449,7 +450,9 @@ function AdminCRUD() {
 											key={item.id}
 											className='flex flex-col sm:flex-row gap-2 items-center'
 										>
-											<span className='font-medium text-gray-900 dark:text-gray-100'>{item.name}</span>
+											<span className='font-medium text-gray-900 dark:text-gray-100'>
+												{item.name}
+											</span>
 											<span className='text-orange-500'>{item.price}</span>
 											{item.ingredients && (
 												<span className='text-gray-500 text-xs'>
@@ -594,7 +597,9 @@ function AdminCRUD() {
 											key={ad.id}
 											className='flex flex-col sm:flex-row gap-2 items-center'
 										>
-											<span className='font-medium text-gray-900 dark:text-gray-100'>{ad.name}</span>
+											<span className='font-medium text-gray-900 dark:text-gray-100'>
+												{ad.name}
+											</span>
 											<span className='text-orange-500'>{ad.price}</span>
 											<div className='flex gap-2 mt-2 sm:mt-0'>
 												<button
@@ -684,7 +689,7 @@ export default function AdminPage() {
 		const auth = getAuth(app);
 		try {
 			await signInWithEmailAndPassword(auth, email, password);
-		} catch (err: any) {
+		} catch {
 			setError('Credenciales incorrectas o usuario no autorizado');
 		}
 	};
